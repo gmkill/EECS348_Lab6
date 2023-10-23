@@ -73,22 +73,22 @@ int main() { //main function that uses all the above functions
     ReadMatrixFromFile("matrix_input.txt", matrix1, size);
     ReadMatrixFromFile("matrix_input.txt", matrix2, size);
 
-    cout << "Matrix 1:" << endl;
+    cout << "Matrix 1:\n";
     Print_Matrix(matrix1, size);
 
-    cout << "Matrix 2:" << endl;
+    cout << "Matrix 2:\n";
     Print_Matrix(matrix2, size);
 
     AddMatrices(matrix1, matrix2, result, size);
-    cout << "Matrix 1 + Matrix 2:" << endl;
+    cout << "Matrix 1 + Matrix 2:\n";
     Print_Matrix(result, size);
 
     MultiplyMatrices(matrix1, matrix2, result, size);
-    cout << "Matrix 1 * Matrix 2:" << endl;
+    cout << "Matrix 1 * Matrix 2:\n";
     Print_Matrix(result, size);
 
     SubtractMatrices(matrix1, matrix2, result, size);
-    cout << "Matrix 1 - Matrix 2:" << endl;
+    cout << "Matrix 1 - Matrix 2:\n";
     Print_Matrix(result, size);
 
     return 0;  //end of the program, returns 0
